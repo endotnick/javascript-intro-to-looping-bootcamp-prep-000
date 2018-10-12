@@ -13,7 +13,7 @@ function whileLoop(n) {
   return 'done';
 }
 
-function doWhileLooop(array) {
+function doWhileLoop(array) {
   do {
     array.pop();
   } while(array.length > 1);
