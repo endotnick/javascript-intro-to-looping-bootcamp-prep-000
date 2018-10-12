@@ -16,10 +16,11 @@ function whileLoop(n) {
 function doWhileLoop(array) {
   let i = array.length;
   const incrementVariable = () => {
-    i++;  
+    i++;
   };
-   
+
   do {
     array.pop();
   } while(array.length > 0 || incrementVariable());
+  return array;
 }
